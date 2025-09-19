@@ -1,12 +1,41 @@
-# React + Vite
+Tarjetas de Testimonios - React
+Proyecto simple que muestra tarjetas de testimonios dinámicos utilizando componentes de React y propiedades (props). Es ideal como ejercicio para practicar el manejo de componentes reutilizables y el paso de datos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologías Utilizadas
+React: Para la creación de la interfaz de usuario basada en componentes.
 
-Currently, two official plugins are available:
+JavaScript: Para la lógica del componente y la manipulación de datos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+HTML y CSS: Para la estructura y los estilos visuales de las tarjetas.
 
-## Expanding the ESLint configuration
+🛠️ Instalación y Uso
+Clonar el repositorio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git clone [https://github.com/Fernando-urb/Tarjetas-Testimonios-React.git](https://github.com/Fernando-urb/Tarjetas-Testimonios-React.git)
+
+Navegar al directorio del proyecto:
+
+cd Tarjetas-Testimonios-React
+
+Instalar las dependencias:
+
+npm install
+
+Iniciar la aplicación:
+
+npm start
+
+Una vez que la aplicación se inicie, se abrirá en tu navegador en http://localhost:3000.
+
+✨ Características
+Componente de tarjeta reutilizable: Un único componente Testimonios que se usa para cada tarjeta.
+
+Manejo de Props: Los datos de cada testimonio (nombre, país, imagen, etc.) se pasan como propiedades (props) para renderizar el contenido de manera dinámica.
+
+Importación de Imágenes: Las imágenes se importan como módulos de JavaScript para ser utilizadas de manera optimizada por React.
+
+👨‍💻 Autor
+Fernando-urb - https://github.com/Fernando-urb
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles
