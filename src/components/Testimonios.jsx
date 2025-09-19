@@ -1,12 +1,14 @@
 
 import "../styles/testimonios.css";
 
+
+
 function Testimonios(props) {
   return (
     <div className="contenedor-testimonio">
       <img
         className="img-testimonio"
-        src={ (`../img/testimonio-${props.imagen}.jpg`)}
+        src={ (`./img/testimonio-${props.imagen}.jpg`)}
         alt="img-fernando"
       />
       <div className="contenedor-texto-testimonio">
