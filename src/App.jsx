@@ -1,9 +1,7 @@
 import './App.css';
 import Testimonios from './components/Testimonios';
-import fernando from  './img/testimonio-fernando.jpg';
-import matias from  './img/testimonio-matias.jpg';
-import santiago from  './img/testimonio-santiago.jpg';
- const imagen = {fernando , matias , santiago};
+
+
 
 
 

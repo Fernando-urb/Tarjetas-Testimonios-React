@@ -1,6 +1,16 @@
 
 import "../styles/testimonios.css";
 
+// Importar imágenes manualmente
+import fernandoImg from '../img/testimonio-fernando.jpg';
+import santiagoImg from '../img/testimonio-santiago.jpg';
+import matiasImg from '../img/testimonio-matias.jpg';
+
+const images = {
+  'testimonio-fernando.jpg': fernandoImg,
+  'testimonio-santiago.jpg': santiagoImg,
+  'testimonio-matias.jpg': matiasImg
+};
 
 
 function Testimonios(props) {
@@ -8,12 +18,12 @@ function Testimonios(props) {
     <div className="contenedor-testimonio">
       <img
         className="img-testimonio"
-        src={ (`./img/testimonio-${props.imagen}.jpg`)}
-        alt="img-fernando"
+        src={images[`testimonio-${props.imagen}.jpg`]}
+        alt={`Foto de ${props.nombre}`}
       />
       <div className="contenedor-texto-testimonio">
         <p className="nombre-testimonio">
-         <strong>{props.nombre}</strong> en {props.pais}
+         <strong>{props.nombre}</strong> es {props.pais}
         </p>
         <p className="cargo-testimonio">
           {props.cargo} de <strong> {props.empresa}</strong>
