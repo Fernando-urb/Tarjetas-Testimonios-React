@@ -1,0 +1,31 @@
+.contenedor-testimonio {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.img-testimonio {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.contenedor-texto-testimonio {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nombre-testimonio {
+  font-weight: 600;
+}
+
+.cargo-testimonio {
+  color: #555;
+}
+
+.texto-testimonio {
+  line-height: 1.4;
+}
+
